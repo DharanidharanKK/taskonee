@@ -1,0 +1,2567 @@
+2026-01-13 09:36:14,943 - INFO - Starting REST API Console Application
+2026-01-13 09:36:14,943 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 09:36:33,999 - INFO - API token provided by user input
+2026-01-13 09:36:41,167 - INFO - ============================================================
+2026-01-13 09:36:41,168 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 09:36:41,168 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 09:36:41,174 - INFO - ============================================================
+2026-01-13 09:36:42,389 - INFO - RESPONSE: 200
+2026-01-13 09:36:42,390 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:06:41 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd205be382a060c-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=t9fN_.5ZgQkGovmBe2sTTVkCavtmoTVETe.JOXq3FEM-1768277201.635067-1.0.1.1-L77rgU4Hnqb7QFdL5KVwUpJtsjGMxQNxCl7d5PAv2im6l6kNMAcCGsZChFvNMrBjv2z7iXnOfBpN1_0mrZl5oLgze0cuPQ.nJPAYOzVvD7bGLZFDF2Yg7QwL_I4Rb7UQ; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 04:36:41 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 09:36:42,390 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 09:36:42,391 - INFO - GET Folders request successful
+2026-01-13 09:36:42,392 - INFO - ============================================================
+
+2026-01-13 09:38:23,195 - INFO - ============================================================
+2026-01-13 09:38:23,196 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 09:38:23,196 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 09:38:23,196 - INFO - Body: {
+  "name": "My-Test-Folder"
+}
+2026-01-13 09:38:23,197 - INFO - ============================================================
+2026-01-13 09:38:24,307 - INFO - RESPONSE: 400
+2026-01-13 09:38:24,307 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:08:23 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd2083a5ef27e9a-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=iq.A8bkt2sFnjUd9nufSd4q4ilZNuHRryNm.kODlQuY-1768277303.418342-1.0.1.1-cKOAoyQoQCnthIGNmpT5Ey5EjDhVrYB796T2rthpIWKUllhNzy0QNcUnNXsEl20UZljmK8MTTU3HMbVC6RsxZS3Mz.nEGDdQ2TaX_5JBKevOWMtQnuPNhDnNWRodRhOp; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 04:38:23 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 09:38:24,308 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'Title' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 09:38:24,308 - WARNING - Non-success response received: 400
+2026-01-13 09:38:24,309 - ERROR - Bad Request - Invalid parameters for POST Create Folder
+2026-01-13 09:44:11,054 - INFO - Starting REST API Console Application
+2026-01-13 09:44:11,055 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 09:44:41,500 - INFO - API token provided by user input
+2026-01-13 09:44:47,784 - INFO - ============================================================
+2026-01-13 09:44:47,784 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 09:44:47,784 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 09:44:47,785 - INFO - ============================================================
+2026-01-13 09:44:49,016 - INFO - RESPONSE: 200
+2026-01-13 09:44:49,017 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:14:48 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd2119edc5b7ffe-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=xD1e4HX12LsYuLOzdGZ2JEj9R9t9VnUj68Hwpw1FN8Y-1768277688.138424-1.0.1.1-Y9P87_4wDbeNvOn33g6gDxhN7HPWMtQ9dYDKzhQoiHaSIzrV84K1vCt4q8nT3vq5q6mCdsmhKM9VbQ6rO.MEbwrJWeJq6b.GdoUQdGFe53_vJAvQAnYy21AsVt7j0PbY; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 04:44:48 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 09:44:49,017 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 09:44:49,019 - INFO - GET Folders request successful
+2026-01-13 09:44:49,019 - INFO - ============================================================
+
+2026-01-13 09:45:42,101 - INFO - ============================================================
+2026-01-13 09:45:42,101 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 09:45:42,102 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 09:45:42,102 - INFO - Body: {
+  "name": "Project_2026_Test"
+}
+2026-01-13 09:45:42,102 - INFO - ============================================================
+2026-01-13 09:45:43,179 - INFO - RESPONSE: 400
+2026-01-13 09:45:43,180 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:15:42 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd212f20b9df56a-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=c9jd56ndgbX9dZZANcikeo.5lU_kK6zfTglLq.3dXN8-1768277742.4104536-1.0.1.1-5UMyilVJqc17TxaGMpDBEUoVt5ZC.e2_OKlj72gbz172KeMA6gc2WfMve2rMJviAyQFuMkgljn_A1gwURZWXm2YUqQWQTWZNO3M2vL40he6xW7Twr23P1St8w.a1oVPT; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 04:45:42 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 09:45:43,180 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'Title' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 09:45:43,181 - WARNING - Non-success response received: 400
+2026-01-13 09:45:43,181 - WARNING - Request body was: {"name": "Project_2026_Test"}
+2026-01-13 09:45:43,181 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 09:45:43,181 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 09:45:43,182 - ERROR - Example: 'My Folder', 'Project-2026', 'Team_Documents'
+2026-01-13 09:47:59,649 - INFO - ============================================================
+2026-01-13 09:47:59,650 - INFO - REQUEST: PUT https://apihub.document360.io/v2/Drive/Folders/& C:/coding/python3.13t.exe c:/Users/Dharanidharan/Desktop/Migration_task/task_app.py
+2026-01-13 09:47:59,650 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 09:47:59,652 - INFO - Body: {
+  "name": "& C:/coding/python3.13t.exe c:/Users/Dharanidharan/Desktop/Migration_task/task_app.py"
+}
+2026-01-13 09:47:59,653 - INFO - ============================================================
+2026-01-13 09:48:00,903 - INFO - RESPONSE: 404
+2026-01-13 09:48:00,904 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:18:00 GMT', 'Content-Length': '0', 'Connection': 'keep-alive', 'CF-Ray': '9bd2164e3fcb7ef4-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=tsbleAZ0IbgUxly1A.j0aWKETZh88SXn.AoNQu0ZBIQ-1768277880.039179-1.0.1.1-aIlUnFFjLXfrQTgTme4S8WxN2W6RFeY_mEcj.1hWvP3gTa7SRJmrdge3ZIENMXOczFnc84dJMdAwMo24nYTeYB9B0r22BX.gy4s9svdVsas9xS25RUP8qFrcp9LbFjYi; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 04:48:00 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 09:48:00,904 - WARNING - Failed to parse response as JSON: Expecting value: line 1 column 1 (char 0)
+2026-01-13 09:48:00,905 - INFO - Response Body: Empty (No Content)
+2026-01-13 09:48:00,905 - WARNING - Non-success response received: 404
+2026-01-13 09:48:00,905 - ERROR - Not Found - The requested resource for PUT Update Folder does not exist
+2026-01-13 09:48:00,906 - ERROR - Error details: No response body
+2026-01-13 09:48:15,766 - INFO - Starting REST API Console Application
+2026-01-13 09:48:15,766 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 09:48:28,584 - INFO - API token provided by user input
+2026-01-13 09:48:33,430 - INFO - ============================================================
+2026-01-13 09:48:33,431 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 09:48:33,431 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 09:48:33,431 - INFO - ============================================================
+2026-01-13 09:48:34,697 - INFO - RESPONSE: 200
+2026-01-13 09:48:34,697 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:18:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd21720cedef56a-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=Wol9B_vxwP8udg7v1BcsI.uJbCskI26XbE5SpMxwuE4-1768277913.7259672-1.0.1.1-LdU3rr0K63z0RrgI7.HDFMdedQFsZrC59xekpcRZa1wmUEZQjXWVnXC1xVE8LCEawe.QXjiLbEUy2ejkBoSNbkMEnKMuoIorxqDxUzFLsP6Nmd_T3daBf9MODemEYJDo; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 04:48:34 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 09:48:34,698 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 09:48:34,700 - INFO - GET Folders request successful
+2026-01-13 09:48:34,700 - INFO - ============================================================
+
+2026-01-13 09:48:54,900 - INFO - ============================================================
+2026-01-13 09:48:54,901 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 09:48:54,901 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 09:48:54,901 - INFO - Body: {
+  "name": "project2026"
+}
+2026-01-13 09:48:54,902 - INFO - ============================================================
+2026-01-13 09:48:55,789 - INFO - RESPONSE: 400
+2026-01-13 09:48:55,790 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:18:55 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd217a5ef4d7f63-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=kThdsCh2j2PkHSpf8FDoTKJr3iWW.BVUKVvs0lASCq4-1768277935.0300655-1.0.1.1-.3VUse2ui1YFtSKYDEH_TFUIPucQhWINx6LyTyEbEg36sf6tmRUM9r0x2nmLDth8A7JJl8xRi5DiA4BjmdGiMSO93cQT_AzB6T.WNqT8En5iHvdD8.Mk56BXaRUv0nDz; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 04:48:55 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 09:48:55,791 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'Title' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 09:48:55,791 - WARNING - Non-success response received: 400
+2026-01-13 09:48:55,792 - WARNING - Request body was: {"name": "project2026"}
+2026-01-13 09:48:55,792 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 09:48:55,792 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 09:48:55,792 - ERROR - Example: 'My Folder', 'Project-2026', 'Team_Documents'
+2026-01-13 09:59:01,985 - INFO - Starting REST API Console Application
+2026-01-13 09:59:01,985 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 09:59:11,067 - INFO - API token provided by user input
+2026-01-13 09:59:15,184 - INFO - ============================================================
+2026-01-13 09:59:15,184 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 09:59:15,184 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 09:59:15,185 - INFO - ============================================================
+2026-01-13 09:59:16,491 - INFO - RESPONSE: 200
+2026-01-13 09:59:16,492 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:29:15 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd226cc5fa0897b-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=fLe_YaMBvnt34NfPsLJKT1bZzryvWrsowyW6sZO0oxE-1768278555.5761228-1.0.1.1-u5gQkRSlypg5x_yOR6rqCdGGgnTkWZE5lppgrmRFHeLxmiEoqYdSV9TkWWCEcZRE4nPRyMEgnCk3_SGOtbKh9Uv1HXcuz4ET4nhu4OzkiRGzc_XUyQQnRVbppUumL.XK; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 04:59:15 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 09:59:16,493 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 09:59:16,494 - INFO - GET Folders request successful
+2026-01-13 09:59:16,495 - INFO - ============================================================
+
+2026-01-13 09:59:30,670 - INFO - ============================================================
+2026-01-13 09:59:30,670 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 09:59:30,670 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 09:59:30,671 - INFO - Body: {
+  "title": "project-2026"
+}
+2026-01-13 09:59:30,671 - INFO - ============================================================
+2026-01-13 09:59:31,735 - INFO - RESPONSE: 400
+2026-01-13 09:59:31,735 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:29:31 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd2272c5c317e9e-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=DttfXMzhMlrJAZegfx0ScEwgJ4Z_RonTKNX0hXWt3JY-1768278570.936828-1.0.1.1-G4UmFeNjnc7r2E66rxiDEgfxlZwp2nAkwyC9snK93HKhTuRvGWhqEkql1LfcBQ2T7zy3QHtvt6k3XMe9GttK597_Bj02XyuA3PZmTnCjC6tDFMon9nnttDhdPmejsNVt; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 04:59:31 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 09:59:31,736 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'User Id' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 09:59:31,736 - WARNING - Non-success response received: 400
+2026-01-13 09:59:31,737 - WARNING - Request body was: {"title": "project-2026"}
+2026-01-13 09:59:31,737 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 09:59:31,737 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 09:59:31,737 - ERROR - Example: 'My Folder', 'Project-2026', 'Team_Documents'
+2026-01-13 10:02:25,263 - INFO - Starting REST API Console Application
+2026-01-13 10:02:25,264 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 10:03:43,070 - INFO - API token provided by user input
+2026-01-13 10:03:46,690 - INFO - ============================================================
+2026-01-13 10:03:46,691 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:03:46,691 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:03:46,691 - INFO - ============================================================
+2026-01-13 10:03:48,063 - INFO - RESPONSE: 200
+2026-01-13 10:03:48,063 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:33:47 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd22d6d9bb77f06-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=rxNP4tWC2apm.bqIMNvHbvuvVj5BsmYxsnDgWwcGtH8-1768278827.141064-1.0.1.1-1_9UeEevYJqqscV1U8irxAiBC49m_XC7QggOLYTdfNYvsb9t7jKEICT.13C1qtdr5bHEOLfiIYpW7pZB_pUT8NlmcfJYNvP8DOszhH0bd3ao5Q9DXSzCQg0411JUola3; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:03:47 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 10:03:48,064 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 10:03:48,065 - INFO - GET Folders request successful
+2026-01-13 10:03:48,066 - INFO - ============================================================
+
+2026-01-13 10:04:09,336 - INFO - ============================================================
+2026-01-13 10:04:09,336 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:04:09,336 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:04:09,337 - INFO - Body: {
+  "title": "Project-2026",
+  "userId": "5aec60794e60146b233749dd"
+}
+2026-01-13 10:04:09,337 - INFO - ============================================================
+2026-01-13 10:04:10,457 - INFO - RESPONSE: 400
+2026-01-13 10:04:10,457 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:34:09 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd22df9c953b294-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=PcCl0jmRV6J2zuYf_8g0Am7tNo008LKHWI2G7.KvE.k-1768278849.5676284-1.0.1.1-fgWgHpqhP1q59GvBjnpVP5oJ4prkeWkNfMhNUCrWG36iCt9dgt7uLYwRC6TaoTSZhn2EqbVZi60aeLdBDi96kUCa12OyWC7_RnwtylZnABK3S71gAOGll07NRTIAAkQp; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:04:09 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 10:04:10,458 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'User Id' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 10:04:10,458 - WARNING - Non-success response received: 400
+2026-01-13 10:04:10,459 - WARNING - Request body was: {"title": "Project-2026", "userId": "5aec60794e60146b233749dd"}
+2026-01-13 10:04:10,459 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 10:04:10,459 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 10:04:10,459 - ERROR - Example: 'My Folder', 'Project-2026', 'Team_Documents'
+2026-01-13 10:05:53,895 - INFO - Starting REST API Console Application
+2026-01-13 10:05:53,896 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 10:06:07,044 - INFO - API token provided by user input
+2026-01-13 10:06:17,626 - INFO - ============================================================
+2026-01-13 10:06:17,626 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:06:17,626 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:06:17,627 - INFO - ============================================================
+2026-01-13 10:06:19,180 - INFO - RESPONSE: 200
+2026-01-13 10:06:19,181 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:36:18 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd2311a7bbab2a0-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=DyQC5Qiku18eMMsm7KjKpdjFwp75.5IyQIY.16uFyvk-1768278977.6762967-1.0.1.1-yatduy3gVVIWIUSETez7E7Ha9LSXLNtJHLBhymdhHjfSdZr5nnYLIzgSyIt7c0Lzl5PaqmvAoo6y9DJqqNHJZ_xr9VT6qjmrHCTxbDAiNqNxtC2gXU3i9JwxdXRaETOO; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:06:18 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 10:06:19,181 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "7cc4b8c6-3bb0-418a-a059-de79051454b8",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:35:00.58Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 10:06:19,183 - INFO - GET Folders request successful
+2026-01-13 10:06:19,183 - INFO - ============================================================
+
+2026-01-13 10:06:36,792 - INFO - ============================================================
+2026-01-13 10:06:36,793 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:06:36,793 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:06:36,793 - INFO - Body: {
+  "title": "project",
+  "userId": "5aec60794e60146b233749dd"
+}
+2026-01-13 10:06:36,793 - INFO - ============================================================
+2026-01-13 10:06:37,715 - INFO - RESPONSE: 400
+2026-01-13 10:06:37,715 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:36:37 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd231922c29913f-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=JnvNVfphaL4A6qsVUaYedIqOXZZKKfwqSnyJ1sSzm_4-1768278996.8242068-1.0.1.1-5I8bMIZoJYMFFTN6j63dKp..aCSJH3Zu2L2UrPp1T3VkhKxJ9aEW0C1TnuSQAjoGHhpIoFhK2nN3PfKPqbmpLvdMordqB_YSWmlUvFUCQ1QvuCNTvH9nTHIhNtjPDMM_; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:06:37 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 10:06:37,716 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'User Id' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 10:06:37,716 - WARNING - Non-success response received: 400
+2026-01-13 10:06:37,716 - WARNING - Request body was: {"title": "project", "userId": "5aec60794e60146b233749dd"}
+2026-01-13 10:06:37,717 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 10:06:37,717 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 10:06:37,717 - ERROR - Example: 'My Folder', 'Project-2026', 'Team_Documents'
+2026-01-13 10:12:11,445 - INFO - Starting REST API Console Application
+2026-01-13 10:12:11,446 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 10:12:26,533 - INFO - API token provided by user input
+2026-01-13 10:12:30,026 - INFO - ============================================================
+2026-01-13 10:12:30,026 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:12:30,026 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:12:30,027 - INFO - ============================================================
+2026-01-13 10:12:31,118 - INFO - RESPONSE: 200
+2026-01-13 10:12:31,119 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:42:30 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd23a32bbbca91d-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=UL7lxOcENdq.QBcZk7I.J782rW85_jj292jjWJxmu9E-1768279350.1983-1.0.1.1-6asKsYb0.7RPSdjC7MVknLMooj75thbUL89uewuwAtrodgaAVSSovC6n26.QDbUAy.z.ug1zvBK07JY7L7QyhnxnCS1VJzIuY3o4lUKB8uwFVk2fFZ0JwO.MzJyp5pmb; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:12:30 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 10:12:31,119 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "7cc4b8c6-3bb0-418a-a059-de79051454b8",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:35:00.58Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 10:12:31,120 - INFO - GET Folders request successful
+2026-01-13 10:12:31,120 - INFO - ============================================================
+
+2026-01-13 10:12:39,909 - INFO - ============================================================
+2026-01-13 10:12:39,909 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:12:39,909 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:12:39,910 - INFO - Body: {
+  "title": "Project-2026",
+  "userId": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209"
+}
+2026-01-13 10:12:39,910 - INFO - ============================================================
+2026-01-13 10:12:40,847 - INFO - RESPONSE: 400
+2026-01-13 10:12:40,847 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:42:40 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd23a6f8a7ed5ee-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=gL.WYjf0fA4YGf250NnVhor1C14yaxfLiz0FG6HxSqY-1768279359.930689-1.0.1.1-9_9B6tQ7Rq4vkqYLRXznoI_Kh03PcKQhp0PJTmG7ThA.7TFth64iLD5mS8PCq5fPEraog4hm2BHJGL_hPJnwPqW6WP_4D6JSZYsjjYS72NAtdrHP7B.AC6vdg9oHKSIs; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:12:40 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 10:12:40,847 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'User Id' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 10:12:40,848 - WARNING - Non-success response received: 400
+2026-01-13 10:12:40,848 - WARNING - Request body was: {"title": "Project-2026", "userId": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209"}
+2026-01-13 10:12:40,848 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 10:12:40,848 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 10:12:40,848 - ERROR - Example: 'My Folder', 'Project-2026', 'Team_Documents'
+2026-01-13 10:16:11,276 - INFO - Starting REST API Console Application
+2026-01-13 10:16:11,276 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 10:16:19,352 - INFO - API token provided by user input
+2026-01-13 10:16:24,654 - INFO - ============================================================
+2026-01-13 10:16:24,654 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:16:24,654 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:16:24,655 - INFO - ============================================================
+2026-01-13 10:16:25,519 - INFO - RESPONSE: 200
+2026-01-13 10:16:25,520 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:46:24 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd23fec6e237fa3-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=AU59TeSwEFl6vUe0u3XStWU9l1XZb2OYQFPxc.Il47k-1768279584.703334-1.0.1.1-iCjR2Bcl0ENHThWVYZ6H_e_99JbuDr65mAoY6F9ModV4bqcA3sjpGKyTQ77tH6EgtbVSudcoaO.eZt9IQgraGoD0bqkfj9ECDQ3Ehugo8fv9dGQv5ke8H0KyR254sHMy; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:16:24 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 10:16:25,520 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "7cc4b8c6-3bb0-418a-a059-de79051454b8",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:35:00.58Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "42fa7dc6-025e-4fc9-8f38-883fbddcc9fc",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:42:16.86Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 10:16:25,521 - INFO - GET Folders request successful
+2026-01-13 10:16:25,522 - INFO - ============================================================
+
+2026-01-13 10:16:38,305 - INFO - ============================================================
+2026-01-13 10:16:38,305 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:16:38,306 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:16:38,306 - INFO - Body: {
+  "title": "Project-2026",
+  "UserId": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209"
+}
+2026-01-13 10:16:38,306 - INFO - ============================================================
+2026-01-13 10:16:39,139 - INFO - RESPONSE: 400
+2026-01-13 10:16:39,139 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:46:38 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd240417d9b7ed9-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=46bOhF5gHNhnXDAP5RwGZs.gpAbndm.TMfHbSvz3x5U-1768279598.3146882-1.0.1.1-kZJKM7B8OBd3xrR1ujWDKCdfYs7wWY2fzFPvZGalVnEM1j9QnQu9ZGJBtz5ROKiNvjUDQygVGGeVZkPSsl20ZZX2SlfGjGtu4M7EmiXYw.dXBczu9QXUYeEm_GCP31eN; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:16:38 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 10:16:39,140 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'User Id' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 10:16:39,140 - WARNING - Non-success response received: 400
+2026-01-13 10:16:39,140 - WARNING - Request body was: {"title": "Project-2026", "UserId": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209"}
+2026-01-13 10:16:39,140 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 10:16:39,140 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 10:16:39,141 - ERROR - Example: 'My Folder', 'Project-2026', 'Team_Documents'
+2026-01-13 10:19:43,857 - INFO - Starting REST API Console Application
+2026-01-13 10:19:43,858 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 10:19:58,936 - INFO - API token provided by user input
+2026-01-13 10:20:01,052 - INFO - ============================================================
+2026-01-13 10:20:01,052 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:20:01,052 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:20:01,053 - INFO - ============================================================
+2026-01-13 10:20:02,105 - INFO - RESPONSE: 200
+2026-01-13 10:20:02,105 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:50:01 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd245356fee8010-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=ZlMpI6NvS8u7P3zupqE4p_fuZvt6vcBkhZII.Rkq8L0-1768279801.1812394-1.0.1.1-.4UU3kegVBTF3.5AnVCk5Sh32gy6dH_Fo0iB0MSiIhTrHq0OxFXzhutu4GX5C5.NGs1nrevmhqMAlQKpwI99L8go0YxQ7Qv6ME_L0MDI7vqCqMVHolLs7jAUiy8oKNdR; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:20:01 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 10:20:02,106 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "7cc4b8c6-3bb0-418a-a059-de79051454b8",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:35:00.58Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "42fa7dc6-025e-4fc9-8f38-883fbddcc9fc",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:42:16.86Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a6c6b5db-c9cb-4988-ba56-5a13419eeb7d",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:46:27.946Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 10:20:02,107 - INFO - GET Folders request successful
+2026-01-13 10:20:02,108 - INFO - ============================================================
+
+2026-01-13 10:20:11,562 - INFO - ============================================================
+2026-01-13 10:20:11,562 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:20:11,563 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:20:11,563 - INFO - Body: {
+  "title": "project-2026",
+  "UserId": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209"
+}
+2026-01-13 10:20:11,563 - INFO - ============================================================
+2026-01-13 10:20:13,265 - INFO - RESPONSE: 400
+2026-01-13 10:20:13,265 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:50:12 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd2457bcd19968e-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=oWJQTzvxi.kEwyXetkA2Foxi1k_s6J6_ex70z3o.pe8-1768279812.4412572-1.0.1.1-7DAy7zFcJv7hFZ2ClALzoQ9ihwGec9UErpLJb7dOA3HTCJzzMvxIzaE5xvRMBFQVV4DRN1rxLm89yYX_8DOkAP_e0pXQah6MgdFEpGHhZLatO5EfBcBsvf37X3vLyxY.; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:20:12 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 10:20:13,266 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'User Id' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 10:20:13,266 - WARNING - Non-success response received: 400
+2026-01-13 10:20:13,266 - WARNING - Request body was: {"title": "project-2026", "UserId": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209"}
+2026-01-13 10:20:13,266 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 10:20:13,266 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 10:20:13,267 - ERROR - Example: 'My Folder', 'Project-2026', 'Team_Documents'
+2026-01-13 10:26:23,508 - INFO - Starting REST API Console Application
+2026-01-13 10:26:23,509 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 10:26:32,468 - INFO - API token provided by user input
+2026-01-13 10:26:34,470 - INFO - ============================================================
+2026-01-13 10:26:34,471 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:26:34,471 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:26:34,471 - INFO - ============================================================
+2026-01-13 10:26:35,433 - INFO - RESPONSE: 200
+2026-01-13 10:26:35,434 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 04:56:34 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd24ed03e847e97-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=60dUgIt0Yz9NBQvUGeQuGmuSzIdjc2mBU4hz9pQdGiw-1768280194.6007164-1.0.1.1-25IIpQETyHuLhH4idcq1DL7KkdfLgMPoDoM1aJXDfVY4tYjQO6mXGpdn6qrhXvJw_zhzCHTX80WENMIb163.EGCczUY5eA1ZgVLe.DuoYCxIJYp0TuIxJVIdGdz3u.8q; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:26:34 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 10:26:35,434 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "7cc4b8c6-3bb0-418a-a059-de79051454b8",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:35:00.58Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "42fa7dc6-025e-4fc9-8f38-883fbddcc9fc",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:42:16.86Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a6c6b5db-c9cb-4988-ba56-5a13419eeb7d",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:46:27.946Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a6f6d57f-c5ee-492a-99d0-b077c7ca77e0",
+      "title": "API-Test-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:50:56.647Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "c3fc6eda-8516-4961-968d-0d20f08340c6",
+      "title": "Test Folder 20260113_045100",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:51:01.115Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "9db04d68-0236-42d1-87d7-019ed55cec53",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:53:25.396Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "c00d4bda-ad22-441e-b276-f3a96177af1c",
+      "title": "Title",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:51:51.732Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 10:26:35,436 - INFO - GET Folders request successful
+2026-01-13 10:26:35,436 - INFO - ============================================================
+
+2026-01-13 10:26:54,499 - INFO - ============================================================
+2026-01-13 10:26:54,499 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:26:54,499 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json', 'UserId': '9bc90a13-4c7a-45e6-b51d-839bc3a5a209'}
+2026-01-13 10:26:54,500 - INFO - Body: {
+  "Title": "Team_Documents"
+}
+2026-01-13 10:26:54,500 - INFO - ============================================================
+2026-01-13 10:26:56,323 - INFO - RESPONSE: 400
+2026-01-13 10:26:56,324 - INFO - Response Body: {"ExtensionData":null,"context":null,"success":false,"errors":[{"ExtensionData":null,"stackTrace":null,"description":"'User Id' must not be empty.","errorCode":null,"CustomData":null}],"warnings":[],"information":[],"FeatureExplorerStatus":null,"CustomPageElement":null}
+2026-01-13 10:26:56,324 - ERROR - Create folder failed
+2026-01-13 10:33:44,477 - INFO - Starting REST API Console Application
+2026-01-13 10:33:44,478 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 10:35:06,782 - INFO - API token provided by user input
+2026-01-13 10:35:08,882 - INFO - ============================================================
+2026-01-13 10:35:08,883 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:35:08,883 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:35:08,883 - INFO - ============================================================
+2026-01-13 10:35:09,998 - INFO - RESPONSE: 200
+2026-01-13 10:35:09,998 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 05:05:09 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd25b5fbf321f33-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=LRjvJvSd6MhpFMXFICS4.PIFI_odyOsE7XbwTexXt3s-1768280709.072249-1.0.1.1-tKzkbOUg.fBtyyFn6x1mTDtbnHxP5jKFsSAgXGg6yt54q2LjQksuuf7kNY0KwiTAfxfLcG35ki4bW8GOfQzkIvwePILb.l.qecC4093esUBl58t7f6kLZmSR8HSt8z1Q; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:35:09 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 10:35:09,999 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "7cc4b8c6-3bb0-418a-a059-de79051454b8",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:35:00.58Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "42fa7dc6-025e-4fc9-8f38-883fbddcc9fc",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:42:16.86Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a6c6b5db-c9cb-4988-ba56-5a13419eeb7d",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:46:27.946Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a6f6d57f-c5ee-492a-99d0-b077c7ca77e0",
+      "title": "API-Test-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:50:56.647Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "c3fc6eda-8516-4961-968d-0d20f08340c6",
+      "title": "Test Folder 20260113_045100",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:51:01.115Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "9db04d68-0236-42d1-87d7-019ed55cec53",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:53:25.396Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "03330f8e-55e4-4baa-a49a-bbb30b0bb7f1",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:55:45.014Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "63d7ffab-232f-4497-9c19-bed9e97fe212",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:56:05Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "305eade5-79ec-45f1-ab70-3e30ab918cce",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:56:53.965Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fab6f181-a56c-4d77-98b8-9db7d33eb351",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:56:55.984Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a5357866-5cca-42c2-af3d-3aecaa793f8c",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:57:37.618Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a9d3113e-1867-4331-9e41-dea575fe04e4",
+      "title": "Test Folder 20260113_045807",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:58:07.636Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "03082f35-7918-4eae-a02d-517074c59304",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:58:26.611Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "c00d4bda-ad22-441e-b276-f3a96177af1c",
+      "title": "Title",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:51:51.732Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 10:35:10,001 - INFO - GET Folders request successful
+2026-01-13 10:35:10,001 - INFO - ============================================================
+
+2026-01-13 10:35:26,163 - INFO - ============================================================
+2026-01-13 10:35:26,163 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:35:26,163 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:35:26,164 - INFO - Body: {
+  "name": "My Folder"
+}
+2026-01-13 10:35:26,164 - INFO - ============================================================
+2026-01-13 10:35:27,201 - INFO - RESPONSE: 400
+2026-01-13 10:35:27,201 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 05:05:26 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd25bcbdb627aff-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=zi3Z3vy4hPuBccjcmwZgbLwsxiMbPI1KAc3r0nrdalY-1768280726.3719263-1.0.1.1-hmCA5LLISBBBEcVD7_2bn8qAYKqWCnQvSPY4_RFCymXSmjskfrry_kX.Nhb86cMzoGm_p97zCEXO_z2J0HQbtdMAYSsEwy76hXAUoSvMxP7g5f3HHgUe6sIEaSNe_6gC; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:35:26 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 10:35:27,202 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'Title' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 10:35:27,202 - WARNING - Non-success response received: 400
+2026-01-13 10:35:27,202 - WARNING - Request body was: {"name": "My Folder"}
+2026-01-13 10:35:27,202 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 10:35:27,203 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 10:35:27,203 - ERROR - Example: 'My Folder', 'Project 2026', 'Team_Documents'
+2026-01-13 10:41:38,007 - INFO - Starting REST API Console Application
+2026-01-13 10:41:38,007 - INFO - APIClient initialized with base URL: https://jsonplaceholder.typicode.com
+2026-01-13 10:41:51,313 - INFO - API token provided by user input
+2026-01-13 10:41:54,539 - INFO - ============================================================
+2026-01-13 10:41:54,539 - INFO - REQUEST: GET https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:41:54,539 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:41:54,540 - INFO - ============================================================
+2026-01-13 10:41:56,653 - INFO - RESPONSE: 200
+2026-01-13 10:41:56,653 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 05:11:55 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd2654dc8dc1203-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'api-supported-versions': '2.0', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=cQ_0uroenSI_j1n6fShlZE_T5KNc2bXoGb2QPRmoX6o-1768281115.8011818-1.0.1.1-ORKIsg9IVMIUOz95TgeUNZQDHMpRK5yT9yEEV07FB_6nje.SCvaBrDmi_.vP8KvCAh82g0UifftdaL4P8ji.2x_RoPjPRxmGvbbptHtK7C3jcrAF6TNy_v.cRpyFDBxb; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:41:55 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)', 'Content-Encoding': 'gzip'}
+2026-01-13 10:41:56,654 - INFO - Response Body: {
+  "data": [
+    {
+      "id": "f2081899-39de-4599-8de5-6abcbc0d4f8c",
+      "title": "Migration_Test_Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:15.555Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "90b00793-ef92-4b98-8a42-fb893c1e0daa",
+      "title": "TestFolder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:10:26.585Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "7cc4b8c6-3bb0-418a-a059-de79051454b8",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-13T04:35:00.58Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "42fa7dc6-025e-4fc9-8f38-883fbddcc9fc",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:42:16.86Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a6c6b5db-c9cb-4988-ba56-5a13419eeb7d",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:46:27.946Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a6f6d57f-c5ee-492a-99d0-b077c7ca77e0",
+      "title": "API-Test-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:50:56.647Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "c3fc6eda-8516-4961-968d-0d20f08340c6",
+      "title": "Test Folder 20260113_045100",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:51:01.115Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "9db04d68-0236-42d1-87d7-019ed55cec53",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:53:25.396Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "03330f8e-55e4-4baa-a49a-bbb30b0bb7f1",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:55:45.014Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "63d7ffab-232f-4497-9c19-bed9e97fe212",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:56:05Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "305eade5-79ec-45f1-ab70-3e30ab918cce",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:56:53.965Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fab6f181-a56c-4d77-98b8-9db7d33eb351",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:56:55.984Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a5357866-5cca-42c2-af3d-3aecaa793f8c",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:57:37.618Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "a9d3113e-1867-4331-9e41-dea575fe04e4",
+      "title": "Test Folder 20260113_045807",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:58:07.636Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "03082f35-7918-4eae-a02d-517074c59304",
+      "title": "FastAPI-Demo-Folder",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:58:26.611Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "f1829f88-3782-4411-9f7c-ad2072a9aa23",
+      "title": "Test Folder 20260113_050523",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T05:05:23.783Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "2facc7b2-6cab-4748-b4cb-7cb8464e0b5a",
+      "title": "akash",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T05:06:15.35Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "50bf0953-9b4d-4c7f-ad37-c3fe90b56545",
+      "title": "akash",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T05:09:12.75Z",
+      "order": 0,
+      "is_starred": false
+    },
+    {
+      "id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+      "title": "Images",
+      "parent_folder_id": null,
+      "sub_folders": [
+        {
+          "id": "055326c4-a5f2-43ac-be07-d9e8fca9818a",
+          "title": "Documentation",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 1,
+          "is_starred": false
+        },
+        {
+          "id": "2f4a3aa5-8bd2-469d-8ec7-4a9b82c54926",
+          "title": "Settings",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 2,
+          "is_starred": false
+        },
+        {
+          "id": "fc9acb17-d0af-44c4-a86f-ccf0dc34f588",
+          "title": "Home page builder",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 3,
+          "is_starred": false
+        },
+        {
+          "id": "5425bf07-01c7-4bb0-a7e0-cdacc2aa8c2a",
+          "title": "Glossary",
+          "parent_folder_id": "fbacbb4a-7b84-433f-b96d-d1c2dc13c7b7",
+          "sub_folders": [],
+          "items_count": 0,
+          "updated_by": "5aec60794e60146b233749dd",
+          "updated_on": "2026-01-12T16:38:30.587Z",
+          "order": 6,
+          "is_starred": false
+        }
+      ],
+      "items_count": 4,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "c00d4bda-ad22-441e-b276-f3a96177af1c",
+      "title": "Title",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "9bc90a13-4c7a-45e6-b51d-839bc3a5a209",
+      "updated_on": "2026-01-13T04:51:51.732Z",
+      "order": 1,
+      "is_starred": false
+    },
+    {
+      "id": "bb4e0f74-e1b1-45e3-94fa-18bf85807666",
+      "title": "PDF",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 2,
+      "is_starred": false
+    },
+    {
+      "id": "010b0071-8785-4d02-9b44-ed37cbfb2eca",
+      "title": "Presentation",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 3,
+      "is_starred": false
+    },
+    {
+      "id": "15bf8bca-c9d2-40d9-bf44-fecea5624d66",
+      "title": "Word-documents",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 4,
+      "is_starred": false
+    },
+    {
+      "id": "9807c340-267e-4b6b-b244-781e2d868ca0",
+      "title": "Zip",
+      "parent_folder_id": null,
+      "sub_folders": [],
+      "items_count": 0,
+      "updated_by": "5aec60794e60146b233749dd",
+      "updated_on": "2026-01-12T16:38:30.587Z",
+      "order": 5,
+      "is_starred": false
+    }
+  ],
+  "extension_data": null,
+  "success": true,
+  "errors": [],
+  "warnings": [],
+  "information": []
+}
+2026-01-13 10:41:56,656 - INFO - GET Folders request successful
+2026-01-13 10:41:56,656 - INFO - ============================================================
+
+2026-01-13 10:42:15,738 - INFO - ============================================================
+2026-01-13 10:42:15,738 - INFO - REQUEST: POST https://apihub.document360.io/v2/Drive/Folders
+2026-01-13 10:42:15,738 - INFO - Headers: {'api_token': '1v9fUFV3l+4XZ+laMwCP8ha0HCRawfN6qQWGhVZ+rKP9ohdUBgez1Y/2cOI2Kq88P4g/eOxl1oGcZ/NG4jpERh8GGE7lHJiR1Olm0npUg0guxfPBpffculxO0yUrgdy85EX/ugGDXYEuo+voLyoraQ==', 'Content-Type': 'application/json'}
+2026-01-13 10:42:15,738 - INFO - Body: {
+  "Title": "TaskOne"
+}
+2026-01-13 10:42:15,738 - INFO - ============================================================
+2026-01-13 10:42:17,850 - INFO - RESPONSE: 400
+2026-01-13 10:42:17,850 - INFO - Response Headers: {'Date': 'Tue, 13 Jan 2026 05:12:17 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'CF-Ray': '9bd265d19b7d6115-MAA', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains; preload', 'Request-Context': 'appId=cid-v1:01971475-6d75-4fb5-b404-20ff63bfaa40', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Vary': 'accept-encoding', 'set-cookie': '__cf_bm=R2cGy.e5uMvvRCu6RVbCU3wv7aOE5KTs2wSMuAMdVQs-1768281136.898953-1.0.1.1-qOT2zwtW0xBOiss1RBj7vmpONnnXJjRt_fCkI.nX2AKe_hnkGxLcaXgmw5qUPfq8nC.OQRLrCb5t70vQjsilKd9vUEKAYszzSpOiDqubwlrYpKahiwI44k7cIAx7WO3P; HttpOnly; Secure; Path=/; Domain=document360.io; Expires=Tue, 13 Jan 2026 05:42:17 GMT', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Permissions-Policy': 'accelerometer=(), ambient-light-sensor=(), autoplay=(*), camera=(*), clipboard-write=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(*), midi=(), payment=(), usb=(), fullscreen=(*)'}
+2026-01-13 10:42:17,850 - INFO - Response Body: {
+  "ExtensionData": null,
+  "context": null,
+  "success": false,
+  "errors": [
+    {
+      "ExtensionData": null,
+      "stackTrace": null,
+      "description": "'User Id' must not be empty.",
+      "errorCode": null,
+      "CustomData": null
+    }
+  ],
+  "warnings": [],
+  "information": [],
+  "FeatureExplorerStatus": null,
+  "CustomPageElement": null
+}
+2026-01-13 10:42:17,851 - WARNING - Non-success response received: 400
+2026-01-13 10:42:17,851 - WARNING - Request body was: {"Title": "TaskOne"}
+2026-01-13 10:42:17,851 - ERROR - Bad Request - The API rejected the folder name format
+2026-01-13 10:42:17,851 - ERROR - Try using alphanumeric characters, spaces, hyphens, and underscores only
+2026-01-13 10:42:17,851 - ERROR - Example: 'My Folder', 'Project 2026', 'Team_Documents'
